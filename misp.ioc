@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5bfdfbed-5014-4a49-82c8-6631cebd0018" last-modified="2018-11-16T00:00:00" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>Event #158</short_description>
+  <description>Deflect Labs Report #6 : Phishing and Web Attacks Targeting Uzbek Human Right Activists and Independent Media (5bfdfbed-5014-4a49-82c8-6631cebd0018)</description>
+  <keywords />
+  <authored_by>EQUALITIE</authored_by>
+  <authored_date>2018-11-16T00:00:00</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="5cc1df7d-ead0-4cba-81d0-784ccebd0018">
+      <IndicatorItem id="5c2ca78f-2c48-4b7b-b7fa-58a6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gmail-accounts-bb6f2dfcec87551e99f9cf331c990617.email-service.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c2ca78f-927c-4171-a2fb-58a6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">e.mail.users.emall.com.my-id.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c2ca78f-bf44-4094-af14-58a6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">e.mail.gmall.con.my-id.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c2ca78f-e504-44ae-8ea1-58a6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gmallls.con-4f137.my-id.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c2ca78f-2a68-4915-b390-58a6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">gmail-accounts-cb66d53c8c9c1b7c622d915322804cdf.email-service.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3ded11-9a44-4473-95b1-16c5cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">m-youtube.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3ded11-d648-4d72-a4c0-16c5cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">bit-ly.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3ded11-0d9c-4783-b1df-16c5cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">msoffice365.win</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3dfc6a-005c-4de4-aad9-14bfcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">ecoit.email</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3dfc6a-4818-49cc-90d1-14bfcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">vzlom.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3dfc6a-64dc-408f-99d9-14bfcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">pochta.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3dfc6a-9460-449f-8ca4-14bfcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">fixerman.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3e0ffc-5e98-4db1-a57c-14bccebd0018" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">51.15.94.245</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3e0ffc-9d58-4733-a1d9-14bccebd0018" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">139.60.163.29</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c3e0ffc-e44c-4dd1-a4a3-14bccebd0018" condition="is">
+        <Context document="RouteEntryItem" search="RouteEntryItem/Destination" type="mir" />
+        <Content type="IP">46.45.137.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c583d1b-e1bc-4004-8f74-4d9dcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">user-id-new.email-session.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c583d1b-15f0-4506-a54f-4d9dcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">user-id.email-session.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c5ac6a9-7360-4b88-8420-21e8cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">login-auth-goglemail-com-7c94e3a1597325b849e26a0b45f0f068.my-id.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c5ad33c-2a6c-4b42-9fc6-21e6cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">office-online-sessions-3959c138e8b8078e683849795e156f98.email-service.host</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c7d8e18-6690-4421-89c1-5711cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">id-accounts-blocked-ac5a75e4c0a77cc16fe90cddc01c2499.myconnection.website</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c7d8e18-c29c-408c-8222-5711cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">id-accounts-blocked-ffb67f7dd7427b9e4fc4e5571247e812.myconnection.website</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c7d8e18-e028-4c11-95e9-5711cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">id-accounts-blocked-326e88561ded6371be008af61bf9594d.myconnection.website</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c7d8e18-fe18-455b-8333-5711cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">id-accounts-blocked-c23102b28e1ae0f24c9614024628e650.myconnection.website</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c9e4d1c-d2b0-49c4-925d-62dfcebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">myconnection.website</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c9e4ef4-29b8-49d7-8927-7317cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">auth-blocked-id-05fec0f5927b7f23017d27d6c6db063d.support-email.site</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c9e4f03-2fbc-49d9-855d-7322cebd0018" condition="is">
+        <Context document="Network" search="Network/DNS" type="mir" />
+        <Content type="string">auth-blocked-id-ea25e07aa08cc376616ea420fffaa2d2.support-email.site</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
