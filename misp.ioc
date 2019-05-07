@@ -7,7 +7,7 @@
   <authored_date>2018-11-16T00:00:00</authored_date>
   <links />
   <definition>
-    <Indicator operator="OR" id="5cc1df7d-ead0-4cba-81d0-784ccebd0018">
+    <Indicator operator="OR" id="5cd15008-2a24-458f-b1cb-5b2bcebd0018">
       <IndicatorItem id="5c2ca78f-2c48-4b7b-b7fa-58a6cebd0018" condition="is">
         <Context document="Network" search="Network/DNS" type="mir" />
         <Content type="string">gmail-accounts-bb6f2dfcec87551e99f9cf331c990617.email-service.host</Content>

@@ -6,3 +6,4 @@ It contains IOCs as :
 * CSV : misp.csv
 * OpenIOC : misp.ioc
 * MISP JSON format : misp.json
+* MISP XML format : misp.xml
